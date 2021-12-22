@@ -1,0 +1,272 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.topRibbon{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(52, 52, 192);
+}
+        .social-media{
+            width: 110px;
+            height: 30px;
+            margin-left: 130px;
+            padding-top: 11px;
+        }
+        .social-media i{
+            padding: 7px;
+        }
+
+.contentBody{
+    width: 70%;
+    height: 1600px;
+    /* border: 5px solid blue; */
+    margin: auto;
+}
+
+.secRibbon{
+    width: 100%;
+    height: 60px;
+    /* background-color: aqua; */
+
+}
+        .secRibbon img{
+            height: 60px;
+            float: left;
+        }
+
+        .otherPages{
+            padding: 20px;
+            display: flex;
+            justify-content: space-evenly;
+        }
+                .otherPages-list{
+                    text-decoration: none;
+                    padding:5px;
+                }
+
+                .otherPages-list:hover{
+                    color: white;
+                    background-color: rgb(53, 53, 187);
+                }
+
+                .brands-button{
+                    border: none;
+                    outline: none;
+                    background-color: inherit;
+                }
+.path{
+    width: 100%;
+    height: 20px;
+}
+        .path p{
+            font-size: medium;
+        }
+.brandName{
+    width: 100%;
+    height: 70px;
+    
+}
+        .brandName img{
+            float: left;
+        }
+        .brandNameLeft{
+            width: 400px;
+            float: left;
+            position: relative;
+            left: 330px;
+            top: 20px;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .brandNameLeft button{
+            border: none;
+            background-color: white;
+            border-radius: 7px;
+            height: 25px;
+            border-color: none;
+            font-size: 14pt;
+        }
+                .brandNameLeft button:hover{
+                    background-color :bisque 
+                }
+.imageSlider{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(26, 178, 189);
+}
+        .imageSlider img{
+            width: 100%;
+            height: 100%;
+        }
+
+.textBody{
+    margin-top: 3%;
+    width: 100%;
+    height: 1000px;
+    /* border: 5px solid green; */
+}
+.leftBody{
+    width: 68%;
+    height: 100%;
+    float: left;
+    /* border: 5px solid deepskyblue; */
+}
+        .description{
+            width: 100%;
+            height: 180px;
+            /* background-color: chocolate; */
+        }
+                .description h1{
+                    color: rgb(66, 161, 66);
+                }
+                .description p{
+                    color: gray;
+                    text-align: justify;
+                    margin: 20px;
+                    margin-left: 0;
+                }
+        .products{
+            width: 100%;
+            height: 800px;
+            /* border: 5px solid darkmagenta; */
+        }
+                .prdiv{
+                    width: 45%;
+                    height: 300px;
+                    float: left;
+                    /* border: 5px solid firebrick; */
+                    /* padding-left: 15px; */
+                    margin: 10px;
+                    position: relative;
+                }
+                .products h1{
+                    color: rgb(66, 161, 66);
+                }
+
+                .pheads{
+                    width: 93%;
+                    height: 40px;
+                    /* color: aqua; */
+                    background-color: cadetblue;
+                    /* padding-top: 1px; */
+                    padding-left: 20px;
+                    font-size: large;
+                    /* position: relative; */
+                }
+                .pheads h2{
+                    margin: auto;
+                }
+                .pheads img{
+                   padding: 40px;
+                   width: 180px;
+                }
+                .hh1{
+                    background-color: rgb(62, 201, 62);
+                    color: white;
+                    border-radius: 10px;
+                }
+                .hh2{
+                    background-color: orange;
+                    color: white;
+                    border-radius: 10px;
+                }
+                .hh3{
+                    background-color: rgb(90, 90, 233);
+                    color: white;
+                    border-radius: 10px;
+                }
+                .pheads button{
+                    position:absolute;
+                    right: 90px;
+                    bottom: 35px;
+                    height: 30px;
+                    width:110px;
+                    font-size: medium;
+                }
+.rightBody{
+    width: 30%;
+    height: 100%;
+    /* background-color: rgb(169, 197, 12); */
+    float: left;
+}   
+
+        .rb1,.rb2,.rb3,.rb4{
+            padding: 37px;
+            width: 66%;
+            margin: auto;
+        }
+
+        .rb1{
+            /* width: 100%; */
+            height: 16%;
+            /* border: 2px solid red; */
+            padding: 33px;
+            width: 193px;
+            margin: auto;
+        }
+
+                .rb1 iframe{
+                    width: 200px;
+                    height: 150px  ;
+                    /* position: absolute;
+                    top: 10px; */
+                }
+        .rb2{
+            width: 88%;
+            margin: auto;
+            height: 5%;
+            /* border: 2px solid red; */
+            margin-top: 30px;
+            padding: 0%;
+            padding-left: 8px;
+            font-weight: bold;
+            color: rgb(66, 168, 66);
+        }
+        .rb3{
+            /* width: 100%; */
+            height: 25%;
+            /* border: 2px solid red; */
+            margin-top: 10px;
+        }
+                .sname{
+                    text-align: right;
+                }
+
+                .sayings{
+                    overflow: hidden;
+                }
+        .rb4{
+            /* width: 100%; */
+            height: 5%;
+            /* border: 2px solid red; */
+            margin-top: 10px;
+            background-color: skyblue;
+        }
+
+        
+.footerRibbon{
+    width: 100%;
+    height: 400px;
+    background-color: gray;
+    /* padding: 50px; */
+    font-size: larger;
+    color: rgb(226, 219, 219);
+    display: flex;
+    align-items: center;    
+}
+
+        .footerRibbon table{
+            border-spacing: 70px 10px;
+            font-size: 14pt;
+        }
+    
+        .footerRibbon th{
+            width: 230px;
+            text-align: left;
+            border-bottom: 1px solid rgb(226, 219, 219);
+            column-gap: 50px;
+        }
+        .footerRibbon th1,th2{
+            width: 100px;
+        }
